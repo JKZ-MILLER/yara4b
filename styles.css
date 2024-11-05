@@ -1,0 +1,63 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #D6CFC4; /* Cor de fundo suave, semelhante a pedras antigas */
+    --branco: #FFFFFF; /* Branco puro para contraste */
+    --dourado: #C8B400; /* Dourado antigo, representando riqueza e tesouros */
+    --marrom-escuro: #4A3C31; /* Marrom escuro, evocando madeira e natureza */
+    --vermelho-sangue: #8B0000; /* Vermelho profundo, como o sangue das batalhas */
+    --verde-floresta: #3C593C; /* Verde escuro das florestas da Terra Média */
+    --azul-profundo: #2A2D69; /* Azul escuro, como o céu noturno de Valfenda */
+    --cinza-pedra: #A9A9A9; /* Cinza para representar as montanhas e ruínas */
+    --amarelo-ouro: #E1C699; /* Amarelo dourado, representando as bandeiras de Gondor */
+    --fonte-principal: "Merryweather", serif; /* Fonte principal com um toque medieval */
+    --fonte-épica: "Cinzel", serif; /* Fonte para títulos, com um ar épico */
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header {
+    background-color: var(--marrom-escuro); /* Header com marrom escuro */
+    color: var(--branco); /* Texto em branco */
+}
+
+.banner {
+    background: var(--azul-profundo); /* Banner em azul profundo */
+    color: var(--branco); /* Texto em branco */
+}
+
+.carrossel {
+    background: var(--verde-floresta); /* Carrossel em verde denso */
+}
+
+.card__descrição, .card__botões {
+    background-color: var(--dourado); /* Cartões em dourado antigo */
+}
+
+.tópicos {
+    background-color: var(--vermelho-sangue); /* Tópicos em vermelho profundo */
+    color: var(--branco); /* Texto em branco */
+}
+
+.contato {
+    background-color: var(--amarelo-ouro); /* Contato em amarelo dourado */
+}
+
+footer {
+    background-color: var(--marrom-escuro); /* Footer em marrom escuro */
+    color: var(--branco); /* Texto em branco */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fonte-épica); /* Títulos em fonte épica */
+}

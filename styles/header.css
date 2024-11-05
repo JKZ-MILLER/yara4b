@@ -1,0 +1,64 @@
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Relâmpago.svg"); /* Ícone de relâmpago, remetendo à cicatriz de Harry */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabeçalho {
+    background-color: var(--marrom-escuro); /* Fundo escuro para um tema mágico */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+    background-color: var(--marrom-escuro); /* Fundo escuro */
+    border: 1px solid var(--dourado); /* Borda dourada */
+    border-radius: 8px;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    color: var(--dourado); /* Texto dourado */
+}
+
+.lista-menu__titulo {
+    color: var(--dourado);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    background: var(--dourado-degrade); /* Degradê dourado para um toque mágico */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    font-family: var(--fonte-mágica); /* Fonte temática */
+}
+
+.container__botao {
+    display: none;
+}

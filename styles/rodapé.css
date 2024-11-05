@@ -1,0 +1,28 @@
+hr {
+    margin: 0;
+    border: none;
+    border-top: 2px solid var(--dourado); /* Linha dourada para adicionar um toque sofisticado */
+}
+
+.rodapé {
+    background-color: var(--marrom-escuro); /* Fundo escuro para combinar com o tema Hogwarts */
+    color: var(--dourado); /* Texto dourado */
+    padding: 2em;
+    text-align: center;
+    font-family: var(--fonte-mágica); /* Fonte que remeta ao universo mágico */
+    border-top: 2px solid var(--dourado); /* Borda superior dourada */
+}
+
+.rodapé__titulo {
+    color: var(--dourado); /* Dourado para destacar o título */
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.rodapé__texto {
+    font-size: 14px;
+    color: var(--branco); /* Texto de corpo branco para melhor legibilidade */
+    margin-top: 0.5em;
+}
